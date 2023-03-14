@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/86/06/e5/8606e51de59713c1a5dda839b81479f6.jpg);
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+   list-style: none;
+  } 
+  
+  a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,.site-title {
+   color: whitesmoke; 
+   text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  } 
